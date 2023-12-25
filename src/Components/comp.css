@@ -1,0 +1,15 @@
+.intro{
+    
+    overflow: hidden;
+    background-color: #333;
+}
+.intro h4{
+   
+        font-size: 3.8rem;
+      
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+}

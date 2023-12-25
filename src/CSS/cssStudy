@@ -1,0 +1,44 @@
+
+p{
+    color: red
+}
+p : selector
+color: property
+red: property value
+
+The whole structure is called a ruleset. 
+The term ruleset is often referred to as just rule.
+
+p is html element.
+
+>>> Selecting multiple elements
+You can also select multiple elements and apply a single ruleset to all of them. 
+Separate multiple selectors by commas. For example:
+
+CSS
+
+p,
+li,
+h1 {
+  color: red;
+}
+
+Selector name	What does it select	Example
+
+1) Element selector (sometimes called a tag or type selector)	All HTML elements of 
+the specified type.	p selects <p>
+
+2) ID selector	The element on the page with the specified ID. On a given HTML page, 
+each id value should be unique.	#my-id selects <p id="my-id"> or <a id="my-id">
+
+3) Class selector	The element(s) on the page with the specified class. 
+Multiple instances of the same class can appear on a page.	.my-class
+selects <p class="my-class"> and <a class="my-class">
+
+4) Attribute selector	The element(s) on the page with the specified attribute.	
+img[src] selects <img src="myimage.png"> but not <img>
+
+5) Pseudo-class selector	The specified element(s), but only when in the specified 
+state. (For example, when a cursor hovers over a link.)	a:hover
+selects <a>, but only when the mouse pointer is hovering over the link.
+

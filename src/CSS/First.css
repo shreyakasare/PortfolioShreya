@@ -1,0 +1,22 @@
+.bdy{
+    background-color:rgb(124, 115, 115)
+}
+.h1{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+  }
+
+  li.special {
+    color: orange;
+    font-weight: bold;
+  }
